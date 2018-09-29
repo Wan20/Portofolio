@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,9 +18,31 @@
     <![endif]-->
   </head>
   <body>
-    
+    <!-- NavBar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a href="#home" class="navbar-brand page-scroll">Wandy Suwandy</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" class="page-scroll">About</a></li>
+                    <li><a href="#portofolio" class="page-scroll">Portofolio</a></li>
+                    <li><a href="#contact" class="page-scroll">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End NavBar -->
+
     <!-- Jumbotron -->
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center bg-img">
         <img src="img/wandyprofile.png" class="img-circle" alt="Wandy">
         <h1>Wandy Suwandy</h1>
         <p>Web Developer | Nan Yin Musician</p>
@@ -36,24 +58,21 @@
                      <hr>
                  </div>
              </div>
-             <div class="row">
-                 <div class="col-sm-5 col-sm-offset-1">
+             <div class="row text-center">
+                 <div class="col-sm-10 col-sm-offset-1">
                     <p>I am a C# developer with a strong passion to learn new things. I have the experience to build API with C#, Java, and make some feature for Web using Laravel and Vue JS Framework. I am also ever creating some application using Php, Node Js, and MATLAB. Currently, I am interested to become a DataScience and learn with Python. I enjoy playing Nan Yin (南音) in my spare time.</p>
-                 </div>
-                 <div class="col-sm-5">
-                    <p>I am a C# developer with a strong passion to learn new things. I have the experience to build API with C#, Java, and make some feature for Web using Laravel and Vue JS Framework. I am also ever creating some application using Php, Node Js, and MATLAB. Currently, I am interested to become a DataScience and learn with Python. I enjoy playing Nan Yin (南音) in my spare time.</p> 
                  </div>
              </div>
         </div>
     </section>
     <!-- End About -->
 
-    <!-- Portfolio -->
-    <div class="portfolio" id="portfolio">
+    <!-- Portofolio -->
+    <div class="portofolio" id="portofolio">
        <div class="container">
            <div class="row">
                <div class="col-sm-12 text-center">
-                    <h2>Programme Language</h2>
+                    <h2>Portofolio</h2>
                     <hr>
                </div>
            </div>
@@ -153,8 +172,11 @@
         </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
   </body>
 </html>

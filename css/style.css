@@ -3,12 +3,35 @@ html{
 }
 
 body{
+    margin-top   : 30px;
     margin-bottom: 200px;
+}
+
+.navbar-default{
+    background-color: rgb(241, 119, 241);
+    border          : 0;
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
 }
 
 .jumbotron img{
     width : 200px;
-    border: 5px solid #ffe6cc;
+    border: 5px solid rgba(106, 255, 163, 0.1);
+}
+
+.bg-img {
+    position  : relative;
+    width     : 100%;
+    height    : 100%;
+    background: linear-gradient(to bottom right, 
+    rgba(255, 44, 255, 0.6), rgba(62, 155, 241, 0.6),
+    rgba(16, 253, 134, 0.678),  rgba(106, 255, 163, 0.6)), url('../img/mengetik.png') center center no-repeat;
 }
 
 hr{
@@ -29,13 +52,13 @@ section{
 }
 
 footer{
-    position        : absolute;
-    bottom          : 0;
-    width           : 100%;
-    height          : 200px;
-    background-color: rgb(145, 145, 145);
-    padding-top     : 30px;
-    color           : #000;
+    position   : absolute;
+    bottom     : 0;
+    width      : 100%;
+    height     : 200px;
+    background : rgba(226, 65, 226, 0.6);
+    padding-top: 30px;
+    color      : #000;
 }
 
 footer p{    
